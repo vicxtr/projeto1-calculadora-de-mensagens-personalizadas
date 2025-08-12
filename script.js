@@ -9,7 +9,8 @@ let Bonus = 6090
 let TotalMensal = 17420
 let TotalAno = 209040
 let TotalAnualdobrado = 209040 * 2
-alert(`===== RELATORIO DO USUARIO =====
+alert(`
+===== RELATORIO DO USUARIO =====
 nome: ${Nome}
 idade: ${idade}
 Ano de Nascimento: ${anonascimento}
@@ -21,4 +22,4 @@ bonus: ${Bonus}
 total mensal: ${TotalMensal}
 total ano: ${TotalAno}
 total anual (salario dobrado): ${TotalAnualdobrado}
-============================`)
+===============================`)
